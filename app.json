@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "FocusAI",
+    "slug": "focusai-role-based-final",
+    "version": "2.0.0",
+    "orientation": "default",
+    "scheme": "focusai",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["ios", "android", "web"],
+    "web": { "bundler": "metro", "output": "static" },
+    "android": { "package": "com.focusai.prototype" },
+    "ios": { "bundleIdentifier": "com.focusai.prototype" },
+    "plugins": ["expo-router"]
+  }
+}
