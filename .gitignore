@@ -9,3 +9,4 @@ yarn-error.log
 .eas
 android
 ios
+.vercel

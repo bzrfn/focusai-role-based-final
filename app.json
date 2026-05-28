@@ -6,10 +6,29 @@
     "orientation": "default",
     "scheme": "focusai",
     "userInterfaceStyle": "automatic",
-    "platforms": ["ios", "android", "web"],
-    "web": { "bundler": "metro", "output": "static" },
-    "android": { "package": "com.focusai.prototype" },
-    "ios": { "bundleIdentifier": "com.focusai.prototype" },
-    "plugins": ["expo-router"]
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "android": {
+      "package": "com.focusai.prototype"
+    },
+    "ios": {
+      "bundleIdentifier": "com.focusai.prototype"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0d3fdd15-6d73-476b-8403-edfee111b5b7"
+      }
+    }
   }
 }

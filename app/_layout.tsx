@@ -1,3 +1,5 @@
+import 'react-native-gesture-handler';
+
 import React from 'react';
 import { Stack } from 'expo-router';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
@@ -11,7 +13,15 @@ export default function RootLayout() {
       <SafeAreaProvider>
         <FocusAIProvider>
           <StatusBar style="light" />
-          <Stack screenOptions={{ headerShown: false }} />
+          <Stack
+            screenOptions={{
+              headerShown: false,
+              animation: 'none',
+              contentStyle: {
+                backgroundColor: '#090014',
+              },
+            }}
+          />
         </FocusAIProvider>
       </SafeAreaProvider>
     </GestureHandlerRootView>
